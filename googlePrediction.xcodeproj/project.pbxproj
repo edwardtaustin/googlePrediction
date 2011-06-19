@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		212E00DD13ADC094002A949C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 212E00DC13ADC094002A949C /* UIKit.framework */; };
+		212E00DF13ADC094002A949C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 212E00DE13ADC094002A949C /* Foundation.framework */; };
+		212E00E113ADC094002A949C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 212E00E013ADC094002A949C /* CoreGraphics.framework */; };
+		212E00E313ADC094002A949C /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 212E00E213ADC094002A949C /* CoreData.framework */; };
+		212E00E913ADC094002A949C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 212E00E713ADC094002A949C /* InfoPlist.strings */; };
+		212E00EC13ADC094002A949C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 212E00EB13ADC094002A949C /* main.m */; };
+		212E00EF13ADC094002A949C /* googlePredictionAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 212E00EE13ADC094002A949C /* googlePredictionAppDelegate.m */; };
+		212E00F213ADC094002A949C /* googlePrediction.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 212E00F013ADC094002A949C /* googlePrediction.xcdatamodeld */; };
+		212E00F613ADC094002A949C /* googlePredictionAppDelegate_iPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = 212E00F513ADC094002A949C /* googlePredictionAppDelegate_iPhone.m */; };
+		212E00F913ADC094002A949C /* MainWindow_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 212E00F713ADC094002A949C /* MainWindow_iPhone.xib */; };
+		212E00FD13ADC094002A949C /* googlePredictionAppDelegate_iPad.m in Sources */ = {isa = PBXBuildFile; fileRef = 212E00FC13ADC094002A949C /* googlePredictionAppDelegate_iPad.m */; };
+		212E010013ADC094002A949C /* MainWindow_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 212E00FE13ADC094002A949C /* MainWindow_iPad.xib */; };
+		212E010713ADC094002A949C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 212E00DC13ADC094002A949C /* UIKit.framework */; };
+		212E010813ADC094002A949C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 212E00DE13ADC094002A949C /* Foundation.framework */; };
+		212E010913ADC094002A949C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 212E00E013ADC094002A949C /* CoreGraphics.framework */; };
+		212E010A13ADC094002A949C /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 212E00E213ADC094002A949C /* CoreData.framework */; };
+		212E011213ADC094002A949C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 212E011013ADC094002A949C /* InfoPlist.strings */; };
+		212E011513ADC094002A949C /* googlePredictionTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 212E011413ADC094002A949C /* googlePredictionTests.h */; };
+		212E011713ADC094002A949C /* googlePredictionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 212E011613ADC094002A949C /* googlePredictionTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		212E010B13ADC094002A949C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 212E00CF13ADC093002A949C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 212E00D713ADC094002A949C;
+			remoteInfo = googlePrediction;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		212E00D813ADC094002A949C /* googlePrediction.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = googlePrediction.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		212E00DC13ADC094002A949C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		212E00DE13ADC094002A949C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		212E00E013ADC094002A949C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		212E00E213ADC094002A949C /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		212E00E613ADC094002A949C /* googlePrediction-Info.plist */ = {isa = PBXFileReference; path = "googlePrediction-Info.plist"; sourceTree = "<group>"; };
+		212E00E813ADC094002A949C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		212E00EA13ADC094002A949C /* googlePrediction-Prefix.pch */ = {isa = PBXFileReference; path = "googlePrediction-Prefix.pch"; sourceTree = "<group>"; };
+		212E00EB13ADC094002A949C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		212E00ED13ADC094002A949C /* googlePredictionAppDelegate.h */ = {isa = PBXFileReference; path = googlePredictionAppDelegate.h; sourceTree = "<group>"; };
+		212E00EE13ADC094002A949C /* googlePredictionAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = googlePredictionAppDelegate.m; sourceTree = "<group>"; };
+		212E00F113ADC094002A949C /* googlePrediction.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = googlePrediction.xcdatamodel; sourceTree = "<group>"; };
+		212E00F413ADC094002A949C /* googlePredictionAppDelegate_iPhone.h */ = {isa = PBXFileReference; name = googlePredictionAppDelegate_iPhone.h; path = iPhone/googlePredictionAppDelegate_iPhone.h; sourceTree = "<group>"; };
+		212E00F513ADC094002A949C /* googlePredictionAppDelegate_iPhone.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = googlePredictionAppDelegate_iPhone.m; path = iPhone/googlePredictionAppDelegate_iPhone.m; sourceTree = "<group>"; };
+		212E00F813ADC094002A949C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = iPhone/en.lproj/MainWindow_iPhone.xib; sourceTree = "<group>"; };
+		212E00FB13ADC094002A949C /* googlePredictionAppDelegate_iPad.h */ = {isa = PBXFileReference; name = googlePredictionAppDelegate_iPad.h; path = iPad/googlePredictionAppDelegate_iPad.h; sourceTree = "<group>"; };
+		212E00FC13ADC094002A949C /* googlePredictionAppDelegate_iPad.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = googlePredictionAppDelegate_iPad.m; path = iPad/googlePredictionAppDelegate_iPad.m; sourceTree = "<group>"; };
+		212E00FF13ADC094002A949C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = iPad/en.lproj/MainWindow_iPad.xib; sourceTree = "<group>"; };
+		212E010613ADC094002A949C /* googlePredictionTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = googlePredictionTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		212E010F13ADC094002A949C /* googlePredictionTests-Info.plist */ = {isa = PBXFileReference; path = "googlePredictionTests-Info.plist"; sourceTree = "<group>"; };
+		212E011113ADC094002A949C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		212E011313ADC094002A949C /* googlePredictionTests-Prefix.pch */ = {isa = PBXFileReference; path = "googlePredictionTests-Prefix.pch"; sourceTree = "<group>"; };
+		212E011413ADC094002A949C /* googlePredictionTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = googlePredictionTests.h; sourceTree = "<group>"; };
+		212E011613ADC094002A949C /* googlePredictionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = googlePredictionTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		212E00D513ADC094002A949C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				212E00DD13ADC094002A949C /* UIKit.framework in Frameworks */,
+				212E00DF13ADC094002A949C /* Foundation.framework in Frameworks */,
+				212E00E113ADC094002A949C /* CoreGraphics.framework in Frameworks */,
+				212E00E313ADC094002A949C /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		212E010213ADC094002A949C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				212E010713ADC094002A949C /* UIKit.framework in Frameworks */,
+				212E010813ADC094002A949C /* Foundation.framework in Frameworks */,
+				212E010913ADC094002A949C /* CoreGraphics.framework in Frameworks */,
+				212E010A13ADC094002A949C /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		212E00CD13ADC093002A949C = {
+			isa = PBXGroup;
+			children = (
+				212E00E413ADC094002A949C /* googlePrediction */,
+				212E010D13ADC094002A949C /* googlePredictionTests */,
+				212E00DB13ADC094002A949C /* Frameworks */,
+				212E00D913ADC094002A949C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		212E00D913ADC094002A949C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				212E00D813ADC094002A949C /* googlePrediction.app */,
+				212E010613ADC094002A949C /* googlePredictionTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		212E00DB13ADC094002A949C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				212E00DC13ADC094002A949C /* UIKit.framework */,
+				212E00DE13ADC094002A949C /* Foundation.framework */,
+				212E00E013ADC094002A949C /* CoreGraphics.framework */,
+				212E00E213ADC094002A949C /* CoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		212E00E413ADC094002A949C /* googlePrediction */ = {
+			isa = PBXGroup;
+			children = (
+				212E00ED13ADC094002A949C /* googlePredictionAppDelegate.h */,
+				212E00EE13ADC094002A949C /* googlePredictionAppDelegate.m */,
+				212E00F013ADC094002A949C /* googlePrediction.xcdatamodeld */,
+				212E00F313ADC094002A949C /* iPhone */,
+				212E00FA13ADC094002A949C /* iPad */,
+				212E00E513ADC094002A949C /* Supporting Files */,
+			);
+			path = googlePrediction;
+			sourceTree = "<group>";
+		};
+		212E00E513ADC094002A949C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				212E00E613ADC094002A949C /* googlePrediction-Info.plist */,
+				212E00E713ADC094002A949C /* InfoPlist.strings */,
+				212E00EA13ADC094002A949C /* googlePrediction-Prefix.pch */,
+				212E00EB13ADC094002A949C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		212E00F313ADC094002A949C /* iPhone */ = {
+			isa = PBXGroup;
+			children = (
+				212E00F413ADC094002A949C /* googlePredictionAppDelegate_iPhone.h */,
+				212E00F513ADC094002A949C /* googlePredictionAppDelegate_iPhone.m */,
+				212E00F713ADC094002A949C /* MainWindow_iPhone.xib */,
+			);
+			name = iPhone;
+			sourceTree = "<group>";
+		};
+		212E00FA13ADC094002A949C /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+				212E00FB13ADC094002A949C /* googlePredictionAppDelegate_iPad.h */,
+				212E00FC13ADC094002A949C /* googlePredictionAppDelegate_iPad.m */,
+				212E00FE13ADC094002A949C /* MainWindow_iPad.xib */,
+			);
+			name = iPad;
+			sourceTree = "<group>";
+		};
+		212E010D13ADC094002A949C /* googlePredictionTests */ = {
+			isa = PBXGroup;
+			children = (
+				212E011413ADC094002A949C /* googlePredictionTests.h */,
+				212E011613ADC094002A949C /* googlePredictionTests.m */,
+				212E010E13ADC094002A949C /* Supporting Files */,
+			);
+			path = googlePredictionTests;
+			sourceTree = "<group>";
+		};
+		212E010E13ADC094002A949C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				212E010F13ADC094002A949C /* googlePredictionTests-Info.plist */,
+				212E011013ADC094002A949C /* InfoPlist.strings */,
+				212E011313ADC094002A949C /* googlePredictionTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		212E00D713ADC094002A949C /* googlePrediction */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 212E011A13ADC094002A949C /* Build configuration list for PBXNativeTarget "googlePrediction" */;
+			buildPhases = (
+				212E00D413ADC094002A949C /* Sources */,
+				212E00D513ADC094002A949C /* Frameworks */,
+				212E00D613ADC094002A949C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = googlePrediction;
+			productName = googlePrediction;
+			productReference = 212E00D813ADC094002A949C /* googlePrediction.app */;
+			productType = "com.apple.product-type.application";
+		};
+		212E010513ADC094002A949C /* googlePredictionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 212E011D13ADC094002A949C /* Build configuration list for PBXNativeTarget "googlePredictionTests" */;
+			buildPhases = (
+				212E010113ADC094002A949C /* Sources */,
+				212E010213ADC094002A949C /* Frameworks */,
+				212E010313ADC094002A949C /* Resources */,
+				212E010413ADC094002A949C /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				212E010C13ADC094002A949C /* PBXTargetDependency */,
+			);
+			name = googlePredictionTests;
+			productName = googlePredictionTests;
+			productReference = 212E010613ADC094002A949C /* googlePredictionTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		212E00CF13ADC093002A949C /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 212E00D213ADC093002A949C /* Build configuration list for PBXProject "googlePrediction" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 212E00CD13ADC093002A949C;
+			productRefGroup = 212E00D913ADC094002A949C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				212E00D713ADC094002A949C /* googlePrediction */,
+				212E010513ADC094002A949C /* googlePredictionTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		212E00D613ADC094002A949C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				212E00E913ADC094002A949C /* InfoPlist.strings in Resources */,
+				212E00F913ADC094002A949C /* MainWindow_iPhone.xib in Resources */,
+				212E010013ADC094002A949C /* MainWindow_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		212E010313ADC094002A949C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				212E011213ADC094002A949C /* InfoPlist.strings in Resources */,
+				212E011513ADC094002A949C /* googlePredictionTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		212E010413ADC094002A949C /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		212E00D413ADC094002A949C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				212E00EC13ADC094002A949C /* main.m in Sources */,
+				212E00EF13ADC094002A949C /* googlePredictionAppDelegate.m in Sources */,
+				212E00F213ADC094002A949C /* googlePrediction.xcdatamodeld in Sources */,
+				212E00F613ADC094002A949C /* googlePredictionAppDelegate_iPhone.m in Sources */,
+				212E00FD13ADC094002A949C /* googlePredictionAppDelegate_iPad.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		212E010113ADC094002A949C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				212E011713ADC094002A949C /* googlePredictionTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		212E010C13ADC094002A949C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 212E00D713ADC094002A949C /* googlePrediction */;
+			targetProxy = 212E010B13ADC094002A949C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		212E00E713ADC094002A949C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				212E00E813ADC094002A949C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		212E00F713ADC094002A949C /* MainWindow_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				212E00F813ADC094002A949C /* en */,
+			);
+			name = MainWindow_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		212E00FE13ADC094002A949C /* MainWindow_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				212E00FF13ADC094002A949C /* en */,
+			);
+			name = MainWindow_iPad.xib;
+			sourceTree = "<group>";
+		};
+		212E011013ADC094002A949C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				212E011113ADC094002A949C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		212E011813ADC094002A949C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		212E011913ADC094002A949C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		212E011B13ADC094002A949C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "googlePrediction/googlePrediction-Prefix.pch";
+				INFOPLIST_FILE = "googlePrediction/googlePrediction-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		212E011C13ADC094002A949C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "googlePrediction/googlePrediction-Prefix.pch";
+				INFOPLIST_FILE = "googlePrediction/googlePrediction-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		212E011E13ADC094002A949C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/googlePrediction.app/googlePrediction";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "googlePredictionTests/googlePredictionTests-Prefix.pch";
+				INFOPLIST_FILE = "googlePredictionTests/googlePredictionTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		212E011F13ADC094002A949C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/googlePrediction.app/googlePrediction";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "googlePredictionTests/googlePredictionTests-Prefix.pch";
+				INFOPLIST_FILE = "googlePredictionTests/googlePredictionTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		212E00D213ADC093002A949C /* Build configuration list for PBXProject "googlePrediction" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				212E011813ADC094002A949C /* Debug */,
+				212E011913ADC094002A949C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		212E011A13ADC094002A949C /* Build configuration list for PBXNativeTarget "googlePrediction" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				212E011B13ADC094002A949C /* Debug */,
+				212E011C13ADC094002A949C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		212E011D13ADC094002A949C /* Build configuration list for PBXNativeTarget "googlePredictionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				212E011E13ADC094002A949C /* Debug */,
+				212E011F13ADC094002A949C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		212E00F013ADC094002A949C /* googlePrediction.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				212E00F113ADC094002A949C /* googlePrediction.xcdatamodel */,
+			);
+			currentVersion = 212E00F113ADC094002A949C /* googlePrediction.xcdatamodel */;
+			path = googlePrediction.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 212E00CF13ADC093002A949C /* Project object */;
+}
